@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+.btn {
+  border: 1px solid #21ebff;
+  color: #21ebff;
+  box-shadow: 0 0 5px #21ebff, 0 0 5px #21ebff inset;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  text-shadow: 0 0 20px #21ebff, 0 0 50px rgba(33, 235, 255, 0.9),
+    0 0 75px rgba(33, 235, 255, 0.8), 0 0 76px rgba(33, 235, 255, 0.7),
+    0 0 77px rgba(33, 235, 255, 0.6), 0 0 78px rgba(33, 235, 255, 0.5),
+    0 0 79px rgba(33, 235, 255, 0.4), 0 0 80px rgba(33, 235, 255, 0.3),
+    0 0 85px rgba(33, 235, 255, 0.2), 0 0 99px rgba(33, 235, 255, 0.1);
+}
+
+.read-the-docs {
+  color: #fffdfd;
+}
